@@ -21,7 +21,7 @@ This repo computes \$(E_J, E_C, f_{01}$\), and anharmonicity \$(\alpha$\) direct
   A single notebook with:
   1) markdown primer (JJ → transmon theory),  
   2) a commented Python cell that:
-     - maps \$ ((I_c, C_\Sigma) $\) → \$(E_J/h$\), \$(E_C/h$\), \$(f_{01}$\), \$(\alpha $\)  
+     - maps \$ ((I_c, C_\Sigma) $\) → \$ (E_J/h $\), \$ (E_C/h $\), \$ (f_{01} $\), \$(\alpha $\)  
      - builds **Rabi** and **Ramsey** circuits in Qiskit  
      - simulates with **thermal relaxation** noise (set \$(T_1, T_2 $\))  
      - plots \$(\langle Z\rangle$\) vs drive angle (Rabi) and vs delay (Ramsey)
