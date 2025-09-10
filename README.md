@@ -23,20 +23,9 @@ This repo computes \$(E_J, E_C, f_{01}$\), and anharmonicity \$(\alpha$\) direct
   2) a commented Python cell that:
      - maps \$((I_c, C_\Sigma)$\) → \$(E_J/h$\), \$(E_C/h$\), \$(f_{01}$\), \$(\alpha$\)  
      - builds **Rabi** and **Ramsey** circuits in Qiskit  
-     - simulates with **thermal relaxation** noise (set \(T_1, T_2\))  
-     - plots \(\langle Z\rangle\) vs drive angle (Rabi) and vs delay (Ramsey)
+     - simulates with **thermal relaxation** noise (set \$(T_1, T_2 $\))  
+     - plots \$(\langle Z\rangle$\) vs drive angle (Rabi) and vs delay (Ramsey)
 
-*(If you prefer a series-style repo, rename the notebook to `01_transmon_from_jj_rabi_ramsey.ipynb` and add future notebooks as `02_rcsj_shapiro_steps.ipynb`, `03_squid_flux_modulation.ipynb`, …)*
 
----
 
-## Quick start
-
-### Option A — pip
-```bash
-python -m venv .venv
-source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
-pip install --upgrade pip
-pip install qiskit qiskit-aer matplotlib numpy jupyter
-jupyter notebook
 
