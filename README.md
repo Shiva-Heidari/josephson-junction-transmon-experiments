@@ -11,7 +11,6 @@ This repo computes \$(E_J, E_C, f_{01}$\), and anharmonicity \$(\alpha$\) direct
 ## Why this is useful
 - Shows the **device → qubit** mapping (junction physics to qubit frequency & nonlinearity).
 - Demonstrates standard, interview-familiar experiments (**Rabi**, **Ramsey**) with code you can run end-to-end.
-- Clean, minimal dependencies; easy to extend (Shapiro steps, SQUID flux tuning, transmon diagonalization).
 
 ---
 
