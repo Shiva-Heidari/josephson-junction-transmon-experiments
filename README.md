@@ -15,10 +15,10 @@ This repository contains a single, commented Jupyter cell that:
 2) **Runs standard control experiments**  
    In the \$(\{|0\rangle, |1\rangle\}$\) subspace:
    - **Rabi:** scan a resonant rotation angle \(\theta\) (pulse area) and measure \$(\langle Z\rangle$\).
-   - **Ramsey:** \$(\pi/2$\) — wait \$(\tau $\) — \$(\pi/2$\) with a programmed phase (detuning) to produce fringes that decay with \$(T_2^\*$\) (approximated here via a \$(T_2$\) channel).
+   - **Ramsey:** \$(\pi/2$\) — wait \$(\tau $\) — \$(\pi/2 $\) with a programmed phase (detuning) to produce fringes that decay with \$(T_2^\* $\) (approximated here via a \$(T_2 $\) channel).
 
 **Notes**  
-- Uses **AerSimulator** with a **thermal_relaxation** noise model parameterized by \$(T_1, T_2$\) and nominal gate/idle durations. This is a **qubit-level emulation**, not a full multi-level transmon simulation.  
+- Uses **AerSimulator** with a **thermal_relaxation** noise model parameterized by \$(T_1, T_2 $\) and nominal gate/idle durations. This is a **qubit-level emulation**, not a full multi-level transmon simulation.  
 - The derived \$(f_{01}$\) from \$((I_c, C_\Sigma)$\) is printed for context; the circuits are written in the **rotating frame** (RX/SX/RZ), as in real experiments.
 
 
