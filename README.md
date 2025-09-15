@@ -19,7 +19,7 @@ This repository contains a single, commented Jupyter cell that:
 
 **Notes**  
 - Uses **AerSimulator** with a **thermal_relaxation** noise model parameterized by \$(T_1, T_2 $\) and nominal gate/idle durations. This is a **qubit-level emulation**, not a full multi-level transmon simulation.  
-- The derived \$(f_{01}$\) from \$((I_c, C_\Sigma)$\) is printed for context; the circuits are written in the **rotating frame** (RX/SX/RZ), as in real experiments.
+- The derived \$(f_{01}$\) from \$((I_c, C_\Sigma$\)) is printed for context; the circuits are written in the **rotating frame** (RX/SX/RZ), as in real experiments.
 
 
 
