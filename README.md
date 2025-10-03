@@ -1,7 +1,7 @@
 # josephson-junction-transmon-experiments
 Hands-on JJ→transmon mapping and calibration demos (Rabi/Ramsey) using Qiskit Aer with relaxation/dephasing noise.
 
-# Josephson Junction → Transmon Qubit (Qiskit)
+# Josephson Junction → Transmon Qubit
 
 This repository contains a single, commented Jupyter cell that:
 
